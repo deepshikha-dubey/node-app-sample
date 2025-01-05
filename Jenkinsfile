@@ -5,7 +5,7 @@ pipeline {
     }
     environment {
         DOCKER_IMAGE = "node-app-sample"
-        REPO_URL = "https://github.com/deepshikha-dubey/example-voting-app.git"
+        REPO_URL = "https://github.com/deepshikha-dubey/node-app-sample.git"
         ECR_REPO = "509399595711.dkr.ecr.us-east-1.amazonaws.com"
         AWS_REGION = "us-east-1"
         AWS_ACCESS_KEY_ID = credentials('AKIAXIHXMA6TMWSTZU6K')
