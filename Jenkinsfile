@@ -8,8 +8,8 @@ pipeline {
         REPO_URL = "https://github.com/deepshikha-dubey/node-app-sample.git"
         ECR_REPO = "509399595711.dkr.ecr.us-east-1.amazonaws.com/"
         AWS_REGION = "us-east-1"
-        AWS_ACCESS_KEY_ID = credentials('AKIAXNGUU7K7QQ6QZIN2')
-        AWS_SECRET_ACCESS_KEY = credentials('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')
+        AWS_ACCESS_KEY_ID = credentials('')
+        AWS_SECRET_ACCESS_KEY = credentials('')
     }
 
     stages {
