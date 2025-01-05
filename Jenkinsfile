@@ -6,10 +6,10 @@ pipeline {
     environment {
         DOCKER_IMAGE = "node-app-sample"
         REPO_URL = "https://github.com/deepshikha-dubey/node-app-sample.git"
-        ECR_REPO = "509399595711.dkr.ecr.us-east-1.amazonaws.com"
+        ECR_REPO = "509399595711.dkr.ecr.us-east-1.amazonaws.com/"
         AWS_REGION = "us-east-1"
-        AWS_ACCESS_KEY_ID = credentials('AKIAXIHXMA6TMWSTZU6K')
-        AWS_SECRET_ACCESS_KEY = credentials('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')
+        AWS_ACCESS_KEY_ID = credentials('AKIAXNGUU7K7QQ6QZIN2')
+        AWS_SECRET_ACCESS_KEY = credentials('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')
     }
 
     stages {
